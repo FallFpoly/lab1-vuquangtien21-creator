@@ -4,13 +4,23 @@
 
 package com.mycompany.lab1;
 
+import java.util.Scanner;
 /**
  *
  * @author ICT
  */
 public class bai1 {
 
+    
     public static void main(String[] args) {
-        // sinh viên code ở đây
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("ho va ten: ");
+        String hoTen = sc.nextLine();
+
+        System.out.print("diem TB: ");
+        double diemTB = sc.nextDouble();
+
+        System.out.printf("%s %.2f diem\n", hoTen, diemTB);
     }
 }
